@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# trello
 
 标签（空格分隔）： 小组作品
@@ -79,3 +80,7 @@
 - 改进
 
  - [ ] Vuex管理 替代混乱的 eventBus
+=======
+# trello
+看板、todolist、trello、vue
+>>>>>>> c421c10edc252e7556ebf76ece3509d67e010b9d
