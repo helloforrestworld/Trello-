@@ -1,14 +1,15 @@
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 ﻿# trello
 
-标签（空格分隔）： 小组作品
+标签（空格分隔）： 
 
 ---
 
 在此输入正文
 
 ###运行
-- npm-start
+- npm start
+- 安装sematic-ui会出现对话框 skip就可以了。
 - 通过 http://127.0.0.1:8080 访问
 
 ###技术栈
@@ -37,7 +38,11 @@
 - [ ] 添加多个看板
 - [ ] 附件上传
 
-
+###截图
+![截图][1]
+![截图][2]
+![截图][3]
+![截图][4]
 ###总结
 - 模块划分:
 > Home
@@ -84,3 +89,9 @@
 # trello
 看板、todolist、trello、vue
 >>>>>>> c421c10edc252e7556ebf76ece3509d67e010b9d
+
+
+  [1]: https://helloforrestworld.github.io/trello/1.png
+  [2]: https://helloforrestworld.github.io/trello/2.png
+  [3]: https://helloforrestworld.github.io/trello/3.png
+  [4]: https://helloforrestworld.github.io/trello/4.png
