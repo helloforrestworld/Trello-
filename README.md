@@ -9,12 +9,13 @@
 
 ###运行
 - npm start
-- 安装sematic-ui会出现对话框 skip就可以了。
+- 安装sematic-ui会出现对话框 skip然后no,let me specify就可以了。
 - 通过 http://127.0.0.1:8080 访问
 
 ###技术栈
 - JS框架：Vue.js
 - Css框架: Semantic-ui&&Element-ui
+- 脚手架：vue-cli
 
 ###小插件
 - vue-datepicker
@@ -39,10 +40,11 @@
 - [ ] 附件上传
 
 ###截图
-![截图][1]
-![截图][2]
-![截图][3]
-![截图][4]
+![视图][1]
+![拖动][2]
+![编辑框][3]
+![编辑框][4]
+
 ###总结
 - 模块划分:
 > Home
@@ -85,13 +87,9 @@
 - 改进
 
  - [ ] Vuex管理 替代混乱的 eventBus
-=======
-# trello
-看板、todolist、trello、vue
->>>>>>> c421c10edc252e7556ebf76ece3509d67e010b9d
 
 
-  [1]: https://helloforrestworld.github.io/trello/1.png
-  [2]: https://helloforrestworld.github.io/trello/2.png
-  [3]: https://helloforrestworld.github.io/trello/3.png
-  [4]: https://helloforrestworld.github.io/trello/4.png
+  [1]: https://thumbnail0.baidupcs.com/thumbnail/5b4ae6e9479b692cbfceda8c084bcc52?fid=3792482788-250528-1011591531743570&time=1500019200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Ft61iXYUv4vI6OgxqXyUS9NPZd0%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=4514970767620922920&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video
+  [2]: https://thumbnail0.baidupcs.com/thumbnail/67e01cda818f43776ef608ced894aa43?fid=3792482788-250528-411798179304525&time=1500019200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-LrAFYKz405JH04Itj5sSQ6jT6X4%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=4514978448363890224&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video
+  [3]: https://thumbnail0.baidupcs.com/thumbnail/01b8bcc5c3ff57bd9525a98b9b1a8b3a?fid=3792482788-250528-800254981686130&time=1500019200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-0PHHk%2FzLbohxSRZHWswxSrEPagA%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=4514989024636356087&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video
+  [4]: https://thumbnail0.baidupcs.com/thumbnail/d23d628c8351c6b41acab9bb24222b39?fid=3792482788-250528-180833641514643&time=1500019200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-0%2B9BVtaHuy%2FSwlnMt0vQ24R1Rrk%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=4514996009672198276&dp-callid=0&size=c710_u400&quality=100&vuk=-&ft=video
