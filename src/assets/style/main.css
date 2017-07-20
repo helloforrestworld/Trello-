@@ -17,14 +17,10 @@ html{
   background-color: rgba(143, 143, 143, 0.7);
   position: relative;
 }
-.kanban{
-  float: left;
-  margin: 11px
-}
-.search-text{
+#search-text{
+  vertical-align: middle;
   width: 200px;
   opacity: 0.9;
-  float: left;
 }
 .top h2{
   float: left;

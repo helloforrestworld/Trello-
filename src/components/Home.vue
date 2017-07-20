@@ -18,9 +18,9 @@
       ></PopOver>
     </keep-alive>
     <div class="top">
-      <el-button type="primary" icon="menu" class="kanban">看板</el-button>
+      <el-button type="primary" icon="menu">看板</el-button>
       <el-input
-        class="search-text"
+        id="search-text"
         placeholder="请输入搜索信息"
         icon="search"
       >
