@@ -361,6 +361,9 @@ ul,li{
   position: absolute;
   white-space: nowrap;
 }
+#todo-content .btn-add {
+  margin: 4px;
+}
 /*添加卡片的样式*/
 .add-card-wrap{
   display: inline-block;

@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-    <div class="row text-container">
+    <div class="row text-container" id="edit-text-container">
       <div class="ui grid column write-text">
         <div class="ui grid" v-if = "!writeText">
           <button 
@@ -435,6 +435,9 @@ export default {
     position: absolute;
     right: -4px;
     top: 0
+  }
+  #edit-text-container {
+    padding-left: 26px;
   }
   /*评论输入框*/
   .edit-con #comment-input{

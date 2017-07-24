@@ -14,6 +14,7 @@
       </minEdit>
       <PopOver 
         v-if = "isShowHeadOpt"
+        @clearlist = "clearList"  
         :databus = "dataBus"
       ></PopOver>
     </keep-alive>
@@ -64,7 +65,7 @@
       @mousedown = "moveContent"
       @mousemove.prevent
     >
-      <div class="todo-content" ref = "todoContent">
+      <div class="todo-content" ref = "todoContent" id = "todo-content">
       <!-- 主要内容模块 -->
         <List 
         v-for = "listdata,key in data" 
@@ -182,23 +183,35 @@ export default {
       this.isAddList = false
       this.$refs.addCardInp.value = ''
       // 滚动条 和 todoContent的位置
+      this.moveScrollBar()
+    },
+    // 滚动条移动
+    moveScrollBar() {
       Vue.nextTick(function () {
         let bar = this.$refs.scrollBar
         let foo = this.$refs.scrollFoo
         const scrollWrap = this.$refs.scrollWrap
         const todoContent = this.$refs.todoContent
-        if (todoContent.clientWidth <= scrollWrap.clientWidth) return
-        if (todoContent.clientWidth - scrollWrap.clientWidth < 275) return
+        if (todoContent.clientWidth <= scrollWrap.clientWidth) {
+          // console.log('清除')
+          this.showScroll = false
+          return
+        }
         // 显示滚动条
         this.showScroll = true
         Vue.nextTick(function () {
           // 计算滚动条宽度
           bar.style.width = (scrollWrap.clientWidth / todoContent.clientWidth) * foo.clientWidth + 'px'
-          todoContent.style.left = todoContent.offsetLeft - 275 + 'px'
+          console.log(bar.style.width)
+          todoContent.style.left = -(todoContent.clientWidth - scrollWrap.clientWidth) + 'px'
           // 滚动条偏移
           bar.style.left = foo.clientWidth - bar.clientWidth + 'px'
         })
       }.bind(this))
+    },
+    // 清除列表时调整滚动条
+    clearList () {
+      this.moveScrollBar()
     },
     // 左右滚动内容区
     moveContent (e) {

@@ -18,7 +18,8 @@
   vertical-align: top;
   /* white-space: nowrap; */
   overflow-y: auto;
-  height:530px;
+  overflow-x: hidden;
+  height:520px;
 }
 /* 单个列表 */
 .list-item {
