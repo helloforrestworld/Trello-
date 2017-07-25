@@ -17,9 +17,6 @@
   /* box-sizing: border-box; */
   vertical-align: top;
   /* white-space: nowrap; */
-  overflow-y: auto;
-  overflow-x: hidden;
-  height:520px;
 }
 /* 单个列表 */
 .list-item {
