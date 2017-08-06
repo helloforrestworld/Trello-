@@ -96,6 +96,6 @@
 
   [1]: https://helloforrestworld.github.io/trello/screen_shot/home.png
   [2]: https://helloforrestworld.github.io/trello/screen_shot/add.gif
-  [3]: https://helloforrestworld.github.io/trello/screen_shot/quickadd.gif
+  [3]: https://helloforrestworld.github.io/trello/screen_shot/quickedit.gif
   [4]: https://helloforrestworld.github.io/trello/screen_shot/edit.gif
   [5]: https://helloforrestworld.github.io/trello/screen_shot/move.gif
