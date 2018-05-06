@@ -22,7 +22,7 @@ let data = [
             id: 1,
             type: 'image',
             title: 'pic1',
-            src: 'http://www.semantic-ui-cn.com/images/avatar/large/elliot.jpg',
+            src: 'http://www.semantic-ui.cn/images/avatar2/large/kristy.png',
             addtime: new Date('2017 7 4 12:20')
           }
         ],
@@ -89,7 +89,7 @@ let data = [
             id: 1,
             type: 'image',
             title: 'pic1',
-            src: 'http://www.semantic-ui-cn.com/images/avatar/large/stevie.jpg',
+            src: 'http://www.semantic-ui.cn/images/avatar2/large/molly.png',
             addtime: new Date('2017 8 4 12:20')
           }
         ],
@@ -150,7 +150,7 @@ let data = [
             id: 1,
             type: 'image',
             title: 'pic1',
-            src: 'http://www.semantic-ui-cn.com/images/avatar/large/steve.jpg',
+            src: 'http://www.semantic-ui.cn/images/avatar2/large/matthew.png',
             addtime: new Date('2017 8 4 12:20')
           }
         ],
