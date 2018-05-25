@@ -35,7 +35,7 @@
             <div
               class="card-cover"
               v-show="haveImage(item.attachments)"
-              :style = "[haveImage(item.attachments)? { backgroundImage:'url(' + item.attachments[0].src + ')'} : '']"
+              v-lazy:background-image = "haveImage(item.attachments) ? item.attachments[0].src : ''"
             ></div>
             <a
             class="mini ui right icon vertical button rename-card-item"
